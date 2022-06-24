@@ -1,4 +1,4 @@
-  [![Ahmed's GitHub Banner](./assets/GitHubHeader.png)](https://braydoncoyer.dev)
+  [![Ahmed's GitHub Banner]()]([https://braydoncoyer.dev](https://if12is.github.io/portofolioo/home.html))
 
 
 - 👋 Hi, I’m @if12is
