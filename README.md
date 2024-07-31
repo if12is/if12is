@@ -50,7 +50,6 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=if12is&layout=compact&theme=radical)
 
-## 🔥 Dynamic Text
-<iframe src="https://if12is.github.io/if12is/" style="width:100%; height:100px; border:none;"></iframe>
+
 
 
