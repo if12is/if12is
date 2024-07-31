@@ -25,7 +25,8 @@
 
 ![HTML](https://img.shields.io/badge/Code-html-informational?style=social&logo=html5&logoColor=dark&color=4AB197)
 
-![CSS](https://img.shields.io/badge/Style-css-informational?style=social&logo=css3&logoColor=dark&color=4AB197)
+![CSS]
+(https://img.shields.io/badge/Style-css-informational?style=social&logo=css3&logoColor=dark&color=4AB197)
 
 ![Tailwind](https://img.shields.io/badge/Style-Tailwind-informational?style=social&logo=tailwindcss&logoColor=dark&color=4AB197)
 
@@ -42,6 +43,7 @@
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Payments](https://img.shields.io/badge/Integration-Payments-brightgreen?style=for-the-badge&logo=paypal&logoColor=white)
 ![API](https://img.shields.io/badge/API-Development-%2300f.svg?style=for-the-badge&logo=api&logoColor=white)
 ![WebSocket](https://img.shields.io/badge/WebSocket-RealTime-%2300f.svg?style=for-the-badge&logo=websocket&logoColor=white)
 
