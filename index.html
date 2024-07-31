@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed's Dynamic Text</title>
+  <style>
+    .typed-text {
+      font-size: 1.5rem;
+      font-family: 'Courier New', Courier, monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: .15em solid orange;
+      animation: caret 0.75s step-end infinite;
+    }
+    @keyframes caret {
+      50% {
+        border-color: transparent;
+      }
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blink {
+      from { border-color: transparent }
+      to { border-color: orange }
+    }
+  </style>
+</head>
+<body>
+
+<div id="animatedText" class="typed-text"></div>
+
+<script>
+  const textArray = [
+    '4+ years experience in coding...',
+    'Fullstack web developer...',
+    'PHP Laravel Backend developer...'
+  ];
+
+  let textIndex = 0;
+  let charIndex = 0;
+  let typingDelay = 100;
+  let erasingDelay = 50;
+  let newTextDelay = 2000;
+
+  const typedTextSpan = document.getElementById('animatedText');
+
+  function type() {
+    if (charIndex < textArray[textIndex].length) {
+      typedTextSpan.textContent += textArray[textIndex].charAt(charIndex);
+      charIndex++;
+      setTimeout(type, typingDelay);
+    } else {
+      setTimeout(erase, newTextDelay);
+    }
+  }
+
+  function erase() {
+    if (charIndex > 0) {
+      typedTextSpan.textContent = textArray[textIndex].substring(0, charIndex - 1);
+      charIndex--;
+      setTimeout(erase, erasingDelay);
+    } else {
+      textIndex++;
+      if (textIndex >= textArray.length) textIndex = 0;
+      setTimeout(type, typingDelay + 1100);
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(type, newTextDelay + 250);
+  });
+</script>
+
+</body>
+</html>
