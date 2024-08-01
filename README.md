@@ -25,8 +25,7 @@
 
 ![HTML](https://img.shields.io/badge/Code-html-informational?style=social&logo=html5&logoColor=dark&color=4AB197)
 
-![CSS]
-(https://img.shields.io/badge/Style-css-informational?style=social&logo=css3&logoColor=dark&color=4AB197)
+![CSS](https://img.shields.io/badge/Style-css-informational?style=social&logo=css3&logoColor=dark&color=4AB197)
 
 ![Tailwind](https://img.shields.io/badge/Style-Tailwind-informational?style=social&logo=tailwindcss&logoColor=dark&color=4AB197)
 
