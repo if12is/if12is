@@ -49,8 +49,6 @@
 ## 📊 GitHub Stats
 [![GitHub Streak](https://streak-stats.demolab.com?user=if12is&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=if12is&layout=compact&theme=radical)
-
 
 
 
